@@ -1,7 +1,12 @@
 import './App.css';
+import UseState from './components/hooks/predefined/UseState';
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <UseState></UseState>
+    </>
+  );
 }
 
 export default App;

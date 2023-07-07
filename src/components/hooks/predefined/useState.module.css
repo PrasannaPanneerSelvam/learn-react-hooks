@@ -1,0 +1,32 @@
+.inlineFlexVertical {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.flexHorizontal {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.inlineFlexVertical button {
+  padding: 2px 4px;
+}
+
+.inlineFlexVertical > button {
+  width: 100%;
+  border: none;
+}
+
+.colorBox {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+}
+
+.colorText {
+  display: inline-block;
+  width: 7ch;
+}
